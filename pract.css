@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+    text-align: center;
+    /* position: fixed; */
+    top: 0; justify-content: center;
+    color: purple;
+}
+ul{
+    list-style: none;
+    height: 100%; width: 120px;
+    position: fixed; top: 0; left: 0;
+    background-color: black;
+ }
+ul li {
+    margin: 10px;padding: 5px; margin-top: 75px;
+}
+ul li a{
+    color: white; font-size: 30px;padding: 5px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background: white;color: blue;
+}
+section {
+    height: 100vh; font-weight: 100vw;display: flex;
+    align-items: center; justify-content: center;
+    text-transform: uppercase;
+}
+#section1{background: linear-gradient(-45deg, white 30%, yellow 0%); 
+}
+#section2{
+    background: linear-gradient(-45deg, white 30%, green 0%); 
+}
+#section3{
+    background: linear-gradient(-45deg, white 30%, orange 0%); 
+} 
+#section4{
+    background: linear-gradient(-45deg, white 30%, red 0%); 
+}
+
